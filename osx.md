@@ -48,7 +48,7 @@ Attendez bien que l'étape précédente soit complétée. Si vous avez fermé le
 Copiez la ligne ci dessous, collez-la dans le terminal et appuyez sur Entrée :
 
 ```bash
-curl -L https://raw.githubusercontent.com/lewagon/install-jekyll/master/scripts/homebrew-ruby-jekyll.sh | bash
+curl https://raw.githubusercontent.com/lewagon/install-jekyll/master/scripts/homebrew-ruby-jekyll.sh | bash
 ```
 
 Le script va s'arrêter et vous demander un `Password:`. Il s'agit du mot de passe de votre Mac,
@@ -57,5 +57,10 @@ lorsque vous ouvrez votre session. Si vous tapez et vous ne voyez rien s'affiche
 sur Entrée quand vous avez terminé de taper votre mot de passe.
 Si vous n'avez pas de mot de passe de session, appuyez juste sur Entrée.
 
-Vous pourrez lire le message `Press RETURN to continue or any other key to abort`, à ce moment
-appuyez tout simplement sur Entrée pour confirmer que vous souhaitez installer tout ça.
+Attendez que le script se termine. Pour vérifier que c'est bon, tapez dans le terminal:
+
+```bash
+jekyll -v
+```
+
+Si le résultat est "jekyll 2.1.1" ou plus, bravo ! Vous êtes prêt à utiliser [jekyll](http://jekyllrb.com/).

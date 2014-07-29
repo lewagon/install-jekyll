@@ -13,7 +13,7 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 echo 'export RBENV_ROOT="${HOME}/.rbenv"' >> ${HOME}/.zshrc
 echo 'export PATH="${RBENV_ROOT}/bin:${PATH}"'  >> ${HOME}/.zshrc
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi'  >> ${HOME}/.zshrc
-. ~/.zshrc
+. ${HOME}/.zshrc
 
 echo "Step 4/5 - Installing Ruby 2.1.2"
 rbenv install 2.1.2
