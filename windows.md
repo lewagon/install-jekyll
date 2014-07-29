@@ -56,10 +56,14 @@ Et voilà !
 
 ## Jekyll
 
-Maintenant vous pouvez rester dans le terminal et taper :
+Maintenant vous pouvez rester dans le terminal et taper les deux commandes suivantes :
 
 ```bash
-gem install github-pages
+gem install yajl-ruby --platform=ruby
+```
+
+```bash
+gem install wdm github-pages
 ```
 
 qui va vous installer Jekyll et toutes les dépendances utiles pour l'hébergement sur GitHub Pages.
