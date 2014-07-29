@@ -12,3 +12,44 @@ d'information. Ce qui nous intéresse, c'est la version de Mac.
 ![](images/about-mac-menu.png)
 
 ![](images/about-mac.png)
+
+Si votre numéro de version commence par **10.6**, **10.7** ou **10.8**, votre Mac
+n'a pas la dernière version du système d'exploitation Apple, à Savoir **Mavericks**.
+
+Vous pouvez le télécharger gratuitement sur [cette page](https://itunes.apple.com/fr/app/os-x-mavericks/id675248567?mt=12). Vous allez ouvrir l'App Store, et pouvoir télécharger
+le logiciel. Il s'installera automatiquement (cela peut prendre quelques heures en
+fonction de votre connexion Internet).
+
+## Installation des outils de compilation
+
+Ouvrez le terminal. N'ayez pas peur, c'est la fenêtre blanche avec écriture noire
+par dessus. Vous pouvez y taper des commandes, faire Entrée, et l'ordinateur va exécuter
+la commande que vous avez taper.
+
+![](images/open-terminal.png)
+
+Une fois le terminal ouvert, copiez-la ligne ci-dessous et appuyez sur Entrée :
+
+```bash
+xcode-select --install
+```
+
+Une fenêtre devrait s'ouvrir, Cliquez sur "Installer".
+
+![](images/xcode-select-install.png)
+
+Vous devez accepter la license, puis attendre que le téléchargement se finisse (100 Mo environ).
+Si vous avez un problème à cette étape, vous pouvez télécharger directement le
+[dmg](bin/command_line_tools_for_os_x_mavericks_late_july_2014.dmg) et l'installer manuellement.
+
+## Installation de Jekyll
+
+Attendez bien que l'étape précédente soit complétée. Si vous avez fermé le terminal, réouvrez-le.
+Copiez la ligne ci dessous, collez-la dans le terminal et appuyez sur Entrée :
+
+```bash
+curl -L https://raw.githubusercontent.com/lewagon/install-jekyll/scripts/homebrew-ruby-jekyll.sh | bash
+```
+
+Vous pourrez lire le message `Press RETURN to continue or any other key to abort`, à ce moment
+appuyez tout simplement sur Entrée pour confirmer que vous souhaitez installer tout ça.
