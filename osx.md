@@ -1,7 +1,7 @@
 # Installation de Jekyll sur Mac OS X
 
 L'installation de Jekyll se fait en plusieurs étapes. Merci de les
-suivres scrupuleusement dans l'ordre.
+suivre scrupuleusement dans l'ordre.
 
 ## Mise à jour de Mac OS X
 
@@ -14,10 +14,11 @@ d'information. Ce qui nous intéresse, c'est la version de Mac.
 ![](images/about-mac.png)
 
 Si votre numéro de version commence par **10.6**, **10.7** ou **10.8**, votre Mac
-n'a pas la dernière version du système d'exploitation Apple, à Savoir **Mavericks**.
+n'a pas la dernière version du système d'exploitation Apple, à savoir **Mavericks**.
+Si le numéro de version commence par **10.9**, pouvez passer à l'étape suivante directement.
 
 Vous pouvez le télécharger gratuitement sur [cette page](https://itunes.apple.com/fr/app/os-x-mavericks/id675248567?mt=12). Vous allez ouvrir l'App Store, et pouvoir télécharger
-le logiciel. Il s'installera automatiquement (cela peut prendre quelques heures en
+le logiciel. Il s'installera automatiquement (cela peut prendre plusieurs heures en
 fonction de votre connexion Internet).
 
 ## Installation des outils de compilation
@@ -38,9 +39,8 @@ Une fenêtre devrait s'ouvrir, Cliquez sur "Installer".
 
 ![](images/xcode-select-install.png)
 
-Vous devez accepter la license, puis attendre que le téléchargement se finisse (100 Mo environ).
-Si vous avez un problème à cette étape, vous pouvez télécharger directement le
-[dmg](bin/command_line_tools_for_os_x_mavericks_late_july_2014.dmg) et l'installer manuellement.
+Vous devez accepter la license, puis attendre que le téléchargement et
+l'installation se termine (100 Mo environ).
 
 ## Installation de Jekyll
 
