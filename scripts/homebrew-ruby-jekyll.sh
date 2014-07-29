@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+set -e
+
 echo "Step 1/6 - Installing Homebrew"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/homebrew/go/install)"
 
