@@ -48,7 +48,7 @@ Attendez bien que l'étape précédente soit complétée. Si vous avez fermé le
 Copiez la ligne ci dessous, collez-la dans le terminal et appuyez sur Entrée :
 
 ```bash
-curl -L https://raw.githubusercontent.com/lewagon/install-jekyll/scripts/homebrew-ruby-jekyll.sh | bash
+curl -L https://raw.githubusercontent.com/lewagon/install-jekyll/master/scripts/homebrew-ruby-jekyll.sh | bash
 ```
 
 Vous pourrez lire le message `Press RETURN to continue or any other key to abort`, à ce moment
