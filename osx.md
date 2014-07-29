@@ -63,4 +63,4 @@ Attendez que le script se termine. Pour vérifier que c'est bon, tapez dans le t
 jekyll -v
 ```
 
-Si le résultat est "jekyll 2.1.1" ou plus, bravo ! Vous êtes prêt à utiliser [jekyll](http://jekyllrb.com/).
+Si le résultat est "jekyll 1.5.1" ou plus, bravo ! Vous êtes prêt à utiliser [jekyll](http://jekyllrb.com/).

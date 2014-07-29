@@ -13,6 +13,8 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 echo 'export RBENV_ROOT="${HOME}/.rbenv"' >> ${HOME}/.zshrc
 echo 'export PATH="${RBENV_ROOT}/bin:${PATH}"'  >> ${HOME}/.zshrc
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi'  >> ${HOME}/.zshrc
+echo 'export LANG=en_US.UTF-8'  >> ${HOME}/.zshrc
+echo 'export LC_ALL=en_US.UTF-8'   >> ${HOME}/.zshrc
 . ${HOME}/.zshrc
 
 echo "Step 4/5 - Installing Ruby 2.1.2"
@@ -20,4 +22,5 @@ rbenv install 2.1.2
 rbenv global 2.1.2
 
 echo "Step 5/5 - Installing Jekyll"
+gem uninstall jekyll -a -x --force
 gem install github-pages
