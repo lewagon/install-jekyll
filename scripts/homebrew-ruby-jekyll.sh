@@ -19,5 +19,5 @@ echo "Step 4/5 - Installing Ruby 2.1.2"
 rbenv install 2.1.2
 rbenv global 2.1.2
 
-echo "Step 5/5 - Installing Jekyll, Finally!!!"
+echo "Step 5/5 - Installing Jekyll"
 gem install github-pages
