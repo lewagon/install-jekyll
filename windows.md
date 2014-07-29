@@ -64,3 +64,10 @@ gem install github-pages
 
 qui va vous installer Jekyll et toutes les dépendances utiles pour l'hébergement sur GitHub Pages.
 
+Attendez que le script se termine. Pour vérifier que c'est bon, tapez dans le terminal:
+
+```bash
+jekyll -v
+```
+
+Si le résultat est "jekyll 1.5.1" ou plus, bravo ! Vous êtes prêt à utiliser [jekyll](http://jekyllrb.com/).
