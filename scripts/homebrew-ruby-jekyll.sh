@@ -3,7 +3,7 @@
 set -e
 
 echo "Step 1/5 - Installing Homebrew"
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" || true
 
 echo "Step 2/5 - Installing oh-my-zsh"
 uninstall_oh_my_zsh || true
